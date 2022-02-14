@@ -49,6 +49,7 @@ for student in student_file:
     gpa = float(student[8])
     if gpa < 3.0:
         outfile.write(f"GPA is {gpa}")
+        outfile.write("\n")
 
 
     # append the record to the dictionary with the student id as the Key
